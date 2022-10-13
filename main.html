@@ -1,0 +1,256 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<title>Blog.com</title>
+    <style>
+        .jumbotron{
+            background-color: darksalmon;
+        }
+        .navbar{
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body class="mx-auto my-4">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#n1">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <h2 class="font-weight-bolder text-white">Blog.com</h2>
+        <div class="collapse navbar-collapse" id="n1">
+            <ul class="navbar-nav ml-2">
+                <li class="nav-item mx-2"> 
+                    <a href="" class="nav-link font-weight-bolder">Home</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a href="" class="nav-link font-weight-bolder">Profiles</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a href="" class="nav-link font-weight-bolder">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <p class="display-1 text-white">Blog.com</p>
+        <p class="display-4 text-white text-right">Blog bizim işimiz</p>
+        <p></p>
+    </div>
+    <div class="row">
+        <div class="col-8" style="padding-left: 100px;">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Post 1</h2>
+                </div>
+                <div class="card-body">
+                    <img src="kedi.png" class="card-img">
+                    <hr>
+                    <p class="display-4">Paşa kedi... Kedilerin paşası </p>
+                    <br>
+                    <button class="btn btn-info" data-toggle="collapse" data-target="#co1">Yorumlar</button>
+                    <div class="collapse" id="co1">
+                        <ul class="list-inline">
+                            <li class="my-2 ml-3">
+                                <p>Ali: Harika!</p>   
+                            </li>
+                            <li class="my-2 ml-3">
+                                <p>Veli: Müthiş bir kedi</p>
+                            </li>
+                            <li class="my-2 ml-3">
+                                <p>Mahmut: Legen wait for it DARY</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p class="text-muted">01/07/2022</p>
+                </div>
+            </div>
+            <br><br>
+            <div class="card">
+                <div class="card-header">
+                    <h2>Post 2</h2>
+                </div>
+                <div class="card-body">
+                    <img src="ayakkabı2.png" class="card-img">
+                    <hr>
+                    <p class="display-4">Yeni Ayakkabılarım </p>
+                    <br>
+                    <button class="btn btn-info" data-toggle="collapse" data-target="#co1">Yorumlar</button>
+                    <div class="collapse" id="co1">
+                        <ul class="list-inline">
+                            <li class="my-2 ml-3">
+                                <p>Mehmet: Hawli!</p>   
+                            </li>
+                            <li class="my-2 ml-3">
+                                <p>Fatma: Müthiş bir ayakkabı</p>
+                            </li>
+                            <li class="my-2 ml-3">
+                                <p>Mahmut: Legen wait for it DARY</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p class="text-muted">01/07/2022</p>
+                </div>
+            </div>
+            <br><br>
+            <div class="card">
+                <div class="card-header">
+                    <h2>Post 3</h2>
+                </div>
+                <div class="card-body">
+                    <img src="gazete.png" class="card-img">
+                    <hr>
+                    <p class="display-4">İlginç Bir Gazete </p>
+                    <br>
+                    <button class="btn btn-info" data-toggle="collapse" data-target="#co1">Yorumlar</button>
+                    <div class="collapse" id="co1">
+                        <ul class="list-inline">
+                            <li class="my-2 ml-3">
+                                <p>Barış Yılmaz: Hemen sil bunu</p>   
+                            </li>
+                            <li class="my-2 ml-3">
+                                <p>Benard: Do you want join us ?! </p>
+                            </li>
+                            <li class="my-2 ml-3">
+                                <p>Mahmut: Legen wait for it DARY</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p class="text-muted">01/07/2022</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4" style="padding-right: 100px;">
+            <div class="card">
+                <div class="card-header">
+                    <p class="display-4">Search</p>
+                </div>
+                <div class="card-body">
+                    <div class="input-group">
+                        <input type="text" placeholder="site dışında ara">
+                        <div class="input-group-append">
+                            <p class="input-group-text">.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="card">
+                <div class="card-header">
+                    <p class="display-4">Kategoriler</p>
+                </div>
+                <div class="card-body">
+                    <div class="clearfix">
+                        <ul class="float-left">
+                            <li>
+                                <a href="">Eğlence</a>
+                            </li>
+                            <li>
+                                <a href="">Kediler</a>
+                            </li>
+                        </ul>                            
+                         <ul class="float-right" style="padding-right: 100px;">
+                            <li>
+                                <a href="">Kişisel</a>
+                            </li>
+                            <li>
+                                <a href="">Gezi</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="card">
+                <div class="card-header">
+                    <p class="display-4">Widget</p>
+                </div>
+                <div class="card-body">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus illo quidem totam atque commodi est cupiditate facilis, laudantium deleniti fugiat assumenda corrupti voluptatibus exercitationem error porro repudiandae dicta quibusdam vero!</p>
+                </div>
+            </div>
+            <br><br>
+            <div class="card">
+                <div class="card-header">
+                    <p class="display-4">Aramıza Katıl!<p>
+                </div>
+                <div class="card-body">
+                    <button class="btn btn-info" data-toggle="modal" data-target="#modal1">Üyel ol</button>
+                    <div class="modal fade" id="modal1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3>ÜYELİK FORMU</h3>
+                                    <button class="close" data-dismiss="modal">
+                                        <span>&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="">
+                                        <label for="name">Ad</label>
+                                        <input type="text" id="name" class="form-control">
+                                        <br>
+                                        <label for="surname">Soyad</label>
+                                        <input type="text" id="surname" class="form-control">
+                                        <br>
+                                        <label for="mail">Email</label>
+                                        <input type="email"  id="mail" class="form-control">
+                                        <br>
+                                        <label for="pass">Şifre</label>
+                                        <input type="password" id="pass" class="form-control">
+                                        <br>
+                                        <label for="pass2">Tekrar Şifre</label>
+                                        <input type="password" id="pass2" class="form-control">
+                                        <br>
+                                        <p>Kullanıcı sözleşmesi ıvır zıvır kabul ediyor musun ?</p>
+                                        <div class="form-check">
+                                            <input type="checkbox" id="c1">
+                                            <label for="c1"><a href="">Kullancı sözleşmesini</a> okudum ve kabul ediyorum</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input type="checkbox" id="c2">
+                                            <label for="c2"><a href="">Ivır zıvırı</a> okudum ve kabul ediyorum</label>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-warning" data-dismiss="modal">Üye Ol</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <button class="btn btn-info float-right" data-toggle="modal" data-target="#modal2">Giriş yap</button>
+                    <div class="modal fade" id="modal2">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3>GİRİŞ YAP</h3>
+                                    <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                                </div>
+                                <div class="modal-body">
+                                    <label for="name">Ad</label>
+                                    <input type="text" id="name" class="form-control">
+                                    <br>
+                                    <label for="pass">Şifre</label>
+                                    <input type="password" id="pass" class="form-control">
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-warning" data-dismiss="modal">Giriş Yap</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
